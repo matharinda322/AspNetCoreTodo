@@ -44,7 +44,7 @@ namespace AspNetCoreTodo
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            //scope
+            //scope used singletone not used
             services.AddScoped<ITodoItemService, TodoItemService>();
         }
 
